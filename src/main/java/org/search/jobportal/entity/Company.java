@@ -10,7 +10,6 @@ import java.math.BigDecimal;
 import java.time.Instant;
 
 @Getter
-@Service
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
@@ -33,6 +32,12 @@ public class Company {
 
    @Column(name = "SIZE", length = 50, nullable = false)
    private String size;
+
+   @Column(name = "locations", length = 1000)
+   private String locations;
+
+   @Column(name="founded", nullable = false)
+   private int founded;
 
    @Column(name = "RATING",nullable = false, precision = 3, scale = 2)
    private BigDecimal rating;

@@ -11,8 +11,11 @@ This project is being developed to gain hands-on experience with:
 - Authentication & Authorization
 - Exception Handling
 - DTOs & Entity Mapping
+- MySQL
 - Pagination & Filtering
 - Microservice-friendly architecture concepts
-- Caching, Messaging, and other backend patterns
+- Caching, Messaging, and other backend patterns 
+- CORS handling
+- Docker/PodMan Compose
 
 The goal is not just to build features, but to deeply understand backend system design, scalable architecture, and clean coding practices in the Java ecosystem.
