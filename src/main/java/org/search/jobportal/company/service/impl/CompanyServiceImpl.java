@@ -1,11 +1,10 @@
-package org.search.jobportal.service.impl;
+package org.search.jobportal.company.service.impl;
 
 import lombok.RequiredArgsConstructor;
-import org.hibernate.internal.build.AllowNonPortable;
-import org.search.jobportal.dto.CompanyDto;
-import org.search.jobportal.entity.Company;
-import org.search.jobportal.repository.CompanyRepository;
-import org.search.jobportal.service.ICompanyService;
+import org.search.jobportal.company.dto.CompanyDto;
+import org.search.jobportal.company.entity.Company;
+import org.search.jobportal.company.repository.CompanyRepository;
+import org.search.jobportal.company.service.ICompanyService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

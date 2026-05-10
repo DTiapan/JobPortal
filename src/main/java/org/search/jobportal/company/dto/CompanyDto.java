@@ -1,4 +1,4 @@
-package org.search.jobportal.dto;
+package org.search.jobportal.company.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,10 +1,8 @@
 package org.search.jobportal.company.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.search.jobportal.dto.CompanyDto;
-import org.search.jobportal.entity.Company;
-import org.search.jobportal.service.ICompanyService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.search.jobportal.company.dto.CompanyDto;
+import org.search.jobportal.company.service.ICompanyService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,10 +1,9 @@
-package org.search.jobportal.entity;
+package org.search.jobportal.company.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.time.Instant;
