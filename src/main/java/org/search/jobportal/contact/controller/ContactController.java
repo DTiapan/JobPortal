@@ -1,5 +1,6 @@
 package org.search.jobportal.contact.controller;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.search.jobportal.contact.dto.ContactRequestDto;
 import org.search.jobportal.contact.service.IContactService;
@@ -14,7 +15,7 @@ public class ContactController {
     private final IContactService contactService;
 
     @PostMapping(version = "1.0")
-    public ResponseEntity<String> saveContactMsg(@RequestBody ContactRequestDto contactRequestDto) {
+    public ResponseEntity<String> saveContactMsg(@RequestBody @Valid ContactRequestDto contactRequestDto) {
         boolean isSaved = contactService.saveContact(contactRequestDto);
 
         if (isSaved) {
